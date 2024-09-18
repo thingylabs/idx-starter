@@ -1,0 +1,30 @@
+{
+  "name": "idx-starter",
+  "version": "0.0.0",
+  "author": {
+    "name": "thingylabs",
+    "email": "hello@thingylabs.io",
+    "url": "https://www.thingylabs.io/"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "watch-backend": "cd backend && npm run dev"
+  },
+  "bugs": {
+    "url": "https://github.com/thingylabs/idx-starter/issues"
+  },
+  "homepage": "https://github.com/thingylabs/idx-starter#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "prettier": "^3.3.3"
+  }
+}

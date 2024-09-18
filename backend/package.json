@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./server.ts",
+    "dev": "tsx watch ./server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@trpc/server": "^10.25.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "prisma": "^5.19.1",
+    "tsx": "^4.19.1"
+  }
+}
